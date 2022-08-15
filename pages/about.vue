@@ -5,7 +5,6 @@
   </div>
 </template>
 
-
 <script>
 export default {
   head() {
@@ -15,14 +14,12 @@ export default {
         {
           hwid: 'description',
           name: 'description',
-          content: 'This is an App that displays Dad Jokes'
-        }
-      ]
-    };
-  }
-};
+          content: 'This is an App that displays Dad Jokes',
+        },
+      ],
+    }
+  },
+}
 </script>
 
-<style>
-
-</style>
+<style></style>

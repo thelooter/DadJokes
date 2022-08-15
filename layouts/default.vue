@@ -1,18 +1,18 @@
 <template>
   <div class="container">
-    <AppHeader/>
-    <nuxt/>
+    <AppHeader />
+    <nuxt />
   </div>
 </template>
 
 <script>
-import AppHeader from "../components/AppHeader";
+import AppHeader from '../components/AppHeader'
 
 export default {
   components: {
-    AppHeader
-  }
-};
+    AppHeader,
+  },
+}
 </script>
 
 <style>

@@ -4,18 +4,13 @@
       <p>{{ joke }}</p>
     </div>
   </nuxt-link>
-
-
 </template>
 
 <script>
 export default {
   name: 'Joke',
-  props: [
-    'joke',
-    'id'
-  ]
-};
+  props: ['joke', 'id'],
+}
 </script>
 
 <style>

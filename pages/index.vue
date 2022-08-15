@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Welcome to Dad Jokes </h2>
+    <h2>Welcome to Dad Jokes</h2>
   </div>
 </template>
 
@@ -13,10 +13,10 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'This is an App that displays Dad Jokes'
-        }
-      ]
-    };
-  }
-};
+          content: 'This is an App that displays Dad Jokes',
+        },
+      ],
+    }
+  },
+}
 </script>

@@ -1,29 +1,26 @@
 <template>
   <form @submit.prevent="onSubmit">
-    <input type="text" v-model="text"
-    placeholder="Search Jokes...">
-    <input type="submit" value="">
+    <input type="text" v-model="text" placeholder="Search Jokes..." />
+    <input type="submit" value="" />
   </form>
 </template>
 
 <script>
 export default {
-  name: "SearchJokes",
+  name: 'SearchJokes',
 
   data() {
     return {
-      text: ''
-    };
+      text: '',
+    }
   },
   methods: {
     onSubmit() {
-      this.$emit('search-text', this.text);
-      this.text = '';
-    }
-  }
-};
+      this.$emit('search-text', this.text)
+      this.text = ''
+    },
+  },
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
